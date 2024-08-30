@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b6e5dbe99e.js" crossorigin="anonymous"></script>
+    <title>Food website</title>
+</head>
+
+<body>
+
+    <!-- navbar-->
+    <header>
+        <nav class="navbar">
+            <!-- logo -->
+            <img src="img/logo.png" class="logo">
+            <!-- links -->
+            <ul class="list-container">
+                <li class="link-item"><a href="#" class="links">Menu</a></li>
+                <li class="link-item"><a href="#" class="links">Order</a></li>
+                <li class="link-item"><a href="#" class="links">Restaurants</a></li>
+                <li class="link-item"><a href="#" class="links">Track Order</a></li>
+            </ul>
+
+            <!-- searchbox -->
+            <div class="nav-extras">
+                <div class="search">
+                    <input type="text" class="search-box" placeholder="Search Restaurants, Cuisine...">
+                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <!-- card icon -->
+                <a href="#" class="card"><i class="fa-solid fa-cart-shopping"></i></a>
+
+                <!-- navbar toggle menu for responsive -->
+                <div class="nav-toggler">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+
+    <!-- main content -->
+    <main id="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-heading">Eat the best</h1>
+            <p class="hero-line">Explore and understand the culture more by tasting the amazing dishes of that culture
+            </p>
+
+            <div class="search location">
+                <input type="text" class="search-box" placeholder="Search Restaurants, Cuisine...">
+                <button class="search-btn location-btn"><i class="fa-solid fa-location-crosshairs"></i></button>
+            </div>
+
+            <div class="hero-action-btn-container">
+                <button class="btn">Order Food</button>
+                <p class="or">or</p>
+                <button class="btn transparent">Make Reservation</button>
+            </div>
+        </div>
+
+        <!-- hero image -->
+        <div class="hero-img-container">
+            <div class="background-ele">
+                <div class="ellipse"></div>
+                <div class="ellipse"></div>
+                <div class="ellipse"></div>
+            </div>
+            <div class="forground-ele">
+                <img src="img/hero-biryani.png" class="hero-img" alt="">
+                <img src="img/hero-burger.png" class="hero-img" alt="">
+                <img src="img/hero-pizza.png" class="hero-img" alt="">
+
+                <!-- review box -->
+                <div class="review-box">
+                    <div class="reviewer-info">
+                        <img src="img/user-1.png" alt="" class="reviewer-img">
+                        <div class="reviewer">
+                            <div class="reviewer-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <p>4.5</p>
+                            </div>
+                            <h2 class="reviewer-name">Fahath</h2>
+                        </div>
+                    </div>
+                    <div class="review-body">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p class="review">The restaurant was good. Staff was very welcoming and the food.... well no
+                            words for it. Chef was amazing and the view of sky from the top deck was fabulous.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- restaurant section -->
+    <section id="restaurants-section">
+        <div class="section">
+            <!-- food image container -->
+            <div class="section-food-image">
+                <div class="circle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="circle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div>
+                    <img src="img/food-1.png" class="food-img" alt="">
+                    <img src="img/food-2.png" class="food-img" alt="">
+                    <img src="img/food-3.png" class="food-img" alt="">
+                    <img src="img/food-4.png" class="food-img" alt="">
+                    <img src="img/food-5.png" class="food-img" alt="">
+                    <img src="img/food-6.png" class="food-img" alt="">
+                    <img src="img/food-7.png" class="food-img" alt="">
+                </div>
+            </div>
+            <!-- text content -->
+            <div class="section-details">
+                <span class="section-highlight">From Professional Chef</span>
+                <p class="section-title">1000+</p>
+                <p class="section-info">Order from our 1000+ food and beverages menu. Food for every taste and mood.
+                </p>
+                <button class="section-btn btn">Order Food</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- cards container -->
+    <section id="restaurants-container">
+
+        <!-- /leaf -->
+        <div class="leafe-layer right">
+            <img src="img/leafs.png" alt="">
+        </div>
+
+        <!-- crads -->
+        <div class="restaurant">
+            <p class="discount">50% off</p>
+            <div class="restaurat-thumbnail">
+                <img src="img/restaurant-1.png" class="restaurants-img" alt="">
+            </div>
+            <div class="restaurant-body">
+                <h3 class="restaurant-name">Restaurant 01</h3>
+                <p class="menu">Burgers, Fries, Nuggets</p>
+                <p class="place">New York</p>
+                <span class="rating">4.2<i class="fa-solid fa-star"></i></span>
+            </div>
+        </div>
+        <div class="restaurant">
+            <div class="restaurat-thumbnail">
+                <img src="img/restaurant-2.png" class="restaurants-img" alt="">
+            </div>
+            <div class="restaurant-body">
+                <h3 class="restaurant-name">Restaurant 02</h3>
+                <p class="menu">Burgers, Fries, Nuggets</p>
+                <p class="place">New York</p>
+                <span class="rating">4.2<i class="fa-solid fa-star"></i></span>
+            </div>
+        </div>
+        <div class="restaurant">
+            <p class="discount">50% off</p>
+            <div class="restaurat-thumbnail">
+                <img src="img/restaurant-3.png" class="restaurants-img" alt="">
+            </div>
+            <div class="restaurant-body">
+                <h3 class="restaurant-name">Restaurant 03</h3>
+                <p class="menu">Burgers, Fries, Nuggets</p>
+                <p class="place">New York</p>
+                <span class="rating">4.2<i class="fa-solid fa-star"></i></span>
+            </div>
+        </div>
+        <div class="restaurant">
+            <div class="restaurat-thumbnail">
+                <img src="img/restaurant-4.png" class="restaurants-img" alt="">
+            </div>
+            <div class="restaurant-body">
+                <h3 class="restaurant-name">Restaurant 04</h3>
+                <p class="menu">Burgers, Fries, Nuggets</p>
+                <p class="place">New York</p>
+                <span class="rating">4.2<i class="fa-solid fa-star"></i></span>
+            </div>
+        </div>
+        <div class="restaurant">
+            <p class="discount">50% off</p>
+            <div class="restaurat-thumbnail">
+                <img src="img/restaurant-5.png" class="restaurants-img" alt="">
+            </div>
+            <div class="restaurant-body">
+                <h3 class="restaurant-name">Restaurant 05</h3>
+                <p class="menu">Burgers, Fries, Nuggets</p>
+                <p class="place">New York</p>
+                <span class="rating">4.2<i class="fa-solid fa-star"></i></span>
+            </div>
+        </div>
+        <div class="restaurant">
+            <p class="discount">50% off</p>
+            <div class="restaurat-thumbnail">
+                <img src="img/restaurant-6.png" class="restaurants-img" alt="">
+            </div>
+            <div class="restaurant-body">
+                <h3 class="restaurant-name">Restaurant 06</h3>
+                <p class="menu">Burgers, Fries, Nuggets</p>
+                <p class="place">New York</p>
+                <span class="rating">4.2<i class="fa-solid fa-star"></i></span>
+            </div>
+        </div>
+
+        <!-- /leaf -->
+        <div class="leafe-layer left">
+            <img src="img/leafs.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about-section">
+
+        <!-- circle image -->
+        <div class="about-us-review-container">
+            <!-- background circle -->
+            <div class="circle">
+
+            </div>
+            <!-- backgriund image -->
+            <img src="img/pizza-pan.png" class="pizza-pan" alt="">
+
+            <!-- review box -->
+            <div class="review-container">
+                <div class="review-wrapper">
+                    <img src="img/user-5.png" alt="" class="reviewer-img">
+                    <div class="review-box">
+                        <div class="reviewer-info">
+                            <div class="reviewer">
+                                <div class="reviewer-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p>4.5</p>
+                                </div>
+                                <h2 class="reviewer-name">Sarah</h2>
+                            </div>
+                        </div>
+                        <div class="review-body">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p class="review">The restaurant was good. Staff was very welcoming and the food.... well no
+                                words for it. Chef was amazing and the view of sky from the top deck was fabulous.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-wrapper">
+                    <img src="img/user-4.png" alt="" class="reviewer-img">
+                    <div class="review-box">
+                        <div class="reviewer-info">
+                            <div class="reviewer">
+                                <div class="reviewer-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p>4.5</p>
+                                </div>
+                                <h2 class="reviewer-name">David</h2>
+                            </div>
+                        </div>
+                        <div class="review-body">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p class="review">The restaurant was good. Staff was very welcoming and the food.... well no
+                                words for it. Chef was amazing and the view of sky from the top deck was fabulous.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-wrapper">
+                    <img src="img/user-3.png" alt="" class="reviewer-img">
+                    <div class="review-box">
+                        <div class="reviewer-info">
+                            <div class="reviewer">
+                                <div class="reviewer-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p>4.5</p>
+                                </div>
+                                <h2 class="reviewer-name">Alia</h2>
+                            </div>
+                        </div>
+                        <div class="review-body">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p class="review">The restaurant was good. Staff was very welcoming and the food.... well no
+                                words for it. Chef was amazing and the view of sky from the top deck was fabulous.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-wrapper">
+                    <img src="img/user-2.png" alt="" class="reviewer-img">
+                    <div class="review-box">
+                        <div class="reviewer-info">
+                            <div class="reviewer">
+                                <div class="reviewer-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p>4.5</p>
+                                </div>
+                                <h2 class="reviewer-name">McLee</h2>
+                            </div>
+                        </div>
+                        <div class="review-body">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p class="review">The restaurant was good. Staff was very welcoming and the food.... well no
+                                words for it. Chef was amazing and the view of sky from the top deck was fabulous.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-wrapper">
+                    <img src="img/user-1.png" alt="" class="reviewer-img">
+                    <div class="review-box">
+                        <div class="reviewer-info">
+                            <div class="reviewer">
+                                <div class="reviewer-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <p>4.5</p>
+                                </div>
+                                <h2 class="reviewer-name">Asmitha</h2>
+                            </div>
+                        </div>
+                        <div class="review-body">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p class="review">The restaurant was good. Staff was very welcoming and the food.... well no
+                                words for it. Chef was amazing and the view of sky from the top deck was fabulous.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- about services -->
+        <div class="about">
+            <h2 class="about-title">Why Us?</h2>
+            <p class="about-info">We serves the best in taste. Our customers is our number 1 priority. See what others
+                think about us</p>
+
+            <div class="services-container">
+                <div class="services">
+                    <div class="service-title">
+                        <img src="img/fastest-delivery.png" class="service-img" alt="">
+                        <h3 class="service-name">Fastest Delivery</h3>
+                    </div>
+                    <p class="service-detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et augue
+                        turpis.</p>
+                </div>
+                <div class="services">
+                    <div class="service-title">
+                        <img src="img/best-prices.png" class="service-img" alt="">
+                        <h3 class="service-name">Best Price</h3>
+                    </div>
+                    <p class="service-detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et augue
+                        turpis.</p>
+                </div>
+                <div class="services">
+                    <div class="service-title">
+                        <img src="img/20+ restaurant.png" class="service-img" alt="">
+                        <h3 class="service-name">20+ Restaurants</h3>
+                    </div>
+                    <p class="service-detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et augue
+                        turpis.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- f & Q section -->
+    <section id="faq-section">
+        <h1 class="section-title">Frequently Ask Questions</h1>
+
+        <!-- faq cards -->
+        <div class="faq-card">
+            <div class="question-box">
+                <h3 class="question">How can I cancel my reservation ?</h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="answer-box">
+                <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et augue turpis.
+                    Phasellus in dapibus tortor. Aenean quis nisl cursus, condimentum diam a</p>
+            </div>
+        </div>
+        <div class="faq-card">
+            <div class="question-box">
+                <h3 class="question">How can I change delivery address after order placement ?</h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="answer-box">
+                <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et augue turpis.
+                    Phasellus in dapibus tortor. Aenean quis nisl cursus, condimentum diam a</p>
+            </div>
+        </div>
+        <div class="faq-card">
+            <div class="question-box">
+                <h3 class="question">How can I contact my delivery person ?</h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="answer-box">
+                <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et augue turpis.
+                    Phasellus in dapibus tortor. Aenean quis nisl cursus, condimentum diam a</p>
+            </div>
+        </div>
+        <div class="faq-card">
+            <div class="question-box">
+                <h3 class="question">My payment is declining. What should I do ?</h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="answer-box">
+                <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et augue turpis.
+                    Phasellus in dapibus tortor. Aenean quis nisl cursus, condimentum diam a</p>
+            </div>
+        </div>
+
+        <!-- corner image -->
+        <div class="dish-layer">
+            <img src="img/side-dish.png" alt="">
+        </div>
+    </section>
+
+    <!-- downlaod app section -->
+    <section id="download-section">
+        <div class="section">
+            <!-- image content -->
+            <div class="download-app-img-container">
+                <div class="pulse">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <!-- leaves -->
+                <img src="img/leafs.png" class="leaf left" alt="">
+                <img src="img/leafs.png" class="leaf right" alt="">
+
+                <!-- phoen mockup img -->
+                <img src="img/app.png" class="phone-mockup" alt="">
+            </div>
+
+
+            <!-- section content -->
+            <div class="section-details">
+                <span class="section-highlight">Download our app to stay updated</span>
+                <p class="section-title">Make Orders From Your Phone</p>
+                <p class="section-info">Get extra feature on app including tracking order, managing account and much
+                    more.</p>
+
+                <div class="download-btn-group">
+                    <a href="#" class="downlaod-btn"><img src="img/play-store.png" alt=""></a>
+                    <a href="#" class="downlaod-btn"><img src="img/app-store.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- discount section -->
+    <section id="discount-section">
+
+        <div class="discount-banner">
+            <!-- text content -->
+            <div class="section-details">
+                <h1 class="section-title">Get an extra 20% off on your first order</h1>
+                <p class="section-info">Use this code during checkout</p>
+                <p class="section-code">WELCOME20</p>
+            </div>
+
+            <!-- image  slider -->
+            <div class="discount-slider">
+                <img src="img/discount-food-slider-1.png" alt="">
+                <img src="img/hero-pizza.png" alt="">
+                <img src="img/hero-burger.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer-->
+    <section id="footer">
+        <!-- logo & social links -->
+        <div class="company-info">
+            <!-- logo -->
+            <img src="img/footer-logo.png" class="logo" alt="">
+            <!-- sociallinks -->
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <!-- download btns -->
+            <div class="download-btn-group">
+                <a href="#" class="downlaod-btn"><img src="img/play-store.png" alt=""></a>
+                <a href="#" class="downlaod-btn"><img src="img/app-store.png" alt=""></a>
+            </div>
+        </div>
+
+        <!-- footer links container -->
+        <div class="useful-links footer-links-container">
+            <h5 class="footer-links-title">Useful Links</h5>
+            <a href="#" class="footer-links">Menu</a>
+            <a href="#" class="footer-links">Restaurants</a>
+            <a href="#" class="footer-links">Your Orders</a>
+            <a href="#" class="footer-links">Track Order</a>
+            <a href="#" class="footer-links">Support</a>
+        </div> 
+
+        <div class="information-links footer-links-container">
+            <h5 class="footer-links-title">Information</h5>
+            <a href="#" class="footer-links">About Us</a>
+            <a href="#" class="footer-links">Privacy Policy</a>
+            <a href="#" class="footer-links">Terms & Conditions</a>
+            <a href="#" class="footer-links">What info we collect ?</a>
+        </div> 
+
+        <div class="contact-links footer-links-container">
+            <h5 class="footer-links-title">Contact Us</h5>
+           <p class="footer-text">Our main restaurant is located on Street 231, NYC</p>
+           <p class="footer-text">Phone - +00 1234567890</p>
+           <p class="footer-text">Email - help@logo.com</p>
+        </div> 
+
+        <!-- payments -->
+        <div class="payment-partners">
+            <a href="#"><img src="img/visa.png" alt=""></a>
+            <a href="#"><img src="img/master-card.png" alt=""></a>
+            <a href="#"><img src="img/paypal.png" alt=""></a>
+            <a href="#"><img src="img/stripe.png" alt=""></a>
+            <a href="#"><img src="img/apple-pay.png" alt=""></a>
+            <a href="#"><img src="img/google-pay.png" alt=""></a>
+        </div>
+        <p class="payment-text">Fully secured payment gateways by trusted companies</p>
+
+
+        <!-- copyright -->
+        <p class="copyright">Developed by  <i class="fa-brands fa-github"><a href="https://github.com/fmfahath" target="_blank"> fm.fahath</a></i></p>
+    </section>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
